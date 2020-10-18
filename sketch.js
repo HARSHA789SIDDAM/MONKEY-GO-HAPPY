@@ -98,7 +98,7 @@ function draw() {
 }
 function SpawnObstacle() {
   if (frameCount % 200 === 0){
-  var obstacle = createSprite(600,height-20,20,30);
+  var obstacle = createSprite(800,height-20,20,30);
     obstacle.velocityX = -5;
     
     obstacle.addImage("ob1",obstaceImage);
