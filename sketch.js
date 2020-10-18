@@ -45,7 +45,7 @@ function setup() {
 
 
 function draw() {
-  background("purple");
+  background("orange");
   monkey.collide(ground);
   
   text("SURVIVE TIME: "+ score, 250, 20);
